@@ -1,0 +1,165 @@
+
+
+
+
+.header{
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: #a7a4a4;
+  z-index: 100;
+  
+}
+
+.left-section{
+  display: flex;
+  align-items:center ;
+
+}
+.hamburger-menu{
+  height: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+  
+}
+.youtube-logo{
+  height: 20px;
+}
+.middle-section{
+  flex: 1;
+  max-width: 500px;
+  margin-left: 70px;
+  margin-right: 35px;
+  display: flex;
+  align-items: center;
+}
+.search-bar{
+  flex: 1;
+  height: 34px;
+  padding-left: 10px;
+  font-size: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(207, 204, 204);
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 5px rgba(0, 0, 0, 0.05);
+  width: 0;
+  
+}
+.search-bar::placeholder{
+  font-size: 16px;
+  color: #c2bdbd;
+}
+.search-button{
+  background-color: #f1f1f1;
+  height: 38px;
+  width: 60px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(201, 199, 199);
+  border-radius: 2px;
+
+}
+.search-button{
+  position: relative;
+  
+}
+.search-button .search-tooltip{
+  position: absolute;
+  font-size: 12px;
+  background-color: #a7a4a4;
+  color: whitesmoke;
+  padding-left: 4px;
+  padding-right: 2px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  bottom: -40px;
+  opacity: 0;
+  pointer-events: none;
+  transition: 0.15s;
+
+
+}
+.search-button:hover .search-tooltip{
+
+  opacity: 1;
+}
+
+.voice-button{ 
+  background-color: #f1f1f1;
+  height: 40px;
+  width: 40px;
+  margin-left: 8px;
+  border: none;
+  border-radius: 20px;
+}
+.search-icon{
+  height: 25px;
+  margin-top: 4px;
+}
+.voice-search-icon{
+  height: 25px ;
+  margin-left: -2px;
+  border: #c2bdbd;
+  border-color: #c2bdbd;
+  border-radius: 10px;
+
+}
+.right-section{
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  padding-right: 20px;
+  
+}
+.upload-icon{
+  width: 32px;
+  height: 24px;
+}
+
+.youtube-apps{
+  width: 32px;
+  height: 24px;
+  margin-left: 20px;
+}
+.notifications-icon{
+  width: 32px;
+  height: 24px;
+  margin-left: 20px;
+}
+.notifications-icon-container{
+  position: relative;
+}
+.notifications-counter{
+  position: absolute;
+  top: -3px;
+  right: 0;
+  color: white;
+  background-color: rgb(189, 2, 2);
+  font-size: 11px;
+  border-radius: 10px;
+  padding-left: 6px;
+  padding-right: 6px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+
+}
+
+.myprofile-icon{
+  width: 32px;
+  height: 32px;
+  margin-left: 16px;
+}
+
+
+
+
+
